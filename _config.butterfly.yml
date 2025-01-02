@@ -55,7 +55,7 @@ social:
 favicon: /img/favicon.png
 
 avatar:
-  img: /img/Image_17.png
+  img: https://avatars.githubusercontent.com/u/193120618?s=400&u=08a340a6e3fd28a5a524ae228b3a4944666afd57&v=4
   effect: true
 
 # Disable all banner images
