@@ -56,7 +56,7 @@ favicon: /img/favicon.png
 
 avatar:
   img: https://avatars.githubusercontent.com/u/193120618?s=400&u=08a340a6e3fd28a5a524ae228b3a4944666afd57&v=4
-  effect: true
+  effect: false
 
 # Disable all banner images
 disable_top_img: false
