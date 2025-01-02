@@ -56,7 +56,7 @@ favicon: /img/favicon.png
 
 avatar:
   img: /img/Image_17.png
-  effect: false
+  effect: true
 
 # Disable all banner images
 disable_top_img: false
