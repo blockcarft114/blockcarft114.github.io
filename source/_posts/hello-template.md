@@ -1,5 +1,6 @@
 ---
 title: Hello world:)
+date: 2024-11-24
 ---
 Welcome to BLOCKCARFT's blog
 
