@@ -25,6 +25,7 @@ tag: 基岩版服务器
 新服务器IP：Freewd.9666.fun
 端口：21146
 ☺我们的QQ群：340707471
+或者<a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=CkLpjbAG4neNBCEySFoL2r_LpiLvCUUT&authKey=PTRECnHJdty6iBjR6hH98wyNXvQBAH6zdgncsy%2F4Scf%2BTezrKQ34kMAhm5SWf9Z9&noverify=0&group_code=340707471">点击这里直接加入群聊</a>
 使用/register +邮箱 +密码 注册
 使用/login +密码进行登陆
 有什么问题欢迎提问
