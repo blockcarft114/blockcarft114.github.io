@@ -1,0 +1,167 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Freewd 0.14.3服务器疑问解答 | BLOCKCARFT</title><meta name="author" content="BLOCKCARFT"><meta name="copyright" content="BLOCKCARFT"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="🐱：服务器里怎么挖不了东西？🐢：出生点周围设有防破坏的功能，建议到出生点以外的地方再试试🐱：怎么注册？🐢：在聊天框里输入“&#x2F;register + 邮箱 + 密码注册使用” “&#x2F;login + 密码 进行登陆”🐱：服务器不生成生物怎么办？🐢：我们还在寻找生成生物的插件，请耐心等待😉🐱：我要OP权限！🐢：现在找2位玩家给管理员权限，有意者请联系我入选标准：1、获得">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Freewd 0.14.3服务器疑问解答">
+<meta property="og:url" content="https://blockcarft114.github.io/freewd_0.14.3_announcement/index.html">
+<meta property="og:site_name" content="BLOCKCARFT">
+<meta property="og:description" content="🐱：服务器里怎么挖不了东西？🐢：出生点周围设有防破坏的功能，建议到出生点以外的地方再试试🐱：怎么注册？🐢：在聊天框里输入“&#x2F;register + 邮箱 + 密码注册使用” “&#x2F;login + 密码 进行登陆”🐱：服务器不生成生物怎么办？🐢：我们还在寻找生成生物的插件，请耐心等待😉🐱：我要OP权限！🐢：现在找2位玩家给管理员权限，有意者请联系我入选标准：1、获得">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://avatars.githubusercontent.com/u/193120618?s=400&u=08a340a6e3fd28a5a524ae228b3a4944666afd57&v=4">
+<meta property="article:published_time" content="2025-03-01T00:00:00.000Z">
+<meta property="article:modified_time" content="2025-03-02T05:30:01.078Z">
+<meta property="article:author" content="BLOCKCARFT">
+<meta property="article:tag" content="基岩版服务器">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://avatars.githubusercontent.com/u/193120618?s=400&u=08a340a6e3fd28a5a524ae228b3a4944666afd57&v=4"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Freewd 0.14.3服务器疑问解答",
+  "url": "https://blockcarft114.github.io/freewd_0.14.3_announcement/",
+  "image": "https://avatars.githubusercontent.com/u/193120618?s=400&u=08a340a6e3fd28a5a524ae228b3a4944666afd57&v=4",
+  "datePublished": "2025-03-01T00:00:00.000Z",
+  "dateModified": "2025-03-02T05:30:01.078Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "BLOCKCARFT",
+      "url": "https://blockcarft114.github.io/"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://blockcarft114.github.io/freewd_0.14.3_announcement/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: 'Copy Successful',
+    error: 'Copy Failed',
+    noSupport: 'Browser Not Supported'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just now',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: 'Load More'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Freewd 0.14.3服务器疑问解答',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'post'
+}</script><meta name="generator" content="Hexo 7.3.0"></head><body><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">BLOCKCARFT</span></a><a class="nav-page-title" href="/"><span class="site-name">Freewd 0.14.3服务器疑问解答</span></a></span><div id="menus"></div></nav><div id="post-info"><h1 class="post-title">Freewd 0.14.3服务器疑问解答</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2025-03-01T00:00:00.000Z" title="Created 2025-03-01 00:00:00">2025-03-01</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2025-03-02T05:30:01.078Z" title="Updated 2025-03-02 05:30:01">2025-03-02</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post Views:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><p>🐱：服务器里怎么挖不了东西？<br>🐢：出生点周围设有防破坏的功能，建议到出生点以外的地方再试试<br>🐱：怎么注册？<br>🐢：在聊天框里输入<br>“&#x2F;register + 邮箱 + 密码注册使用”<br> “&#x2F;login + 密码 进行登陆”<br>🐱：服务器不生成生物怎么办？<br>🐢：我们还在寻找生成生物的插件，请耐心等待😉<br>🐱：我要OP权限！<br>🐢：现在找2位玩家给管理员权限，有意者请联系我<br>入选标准：<br>1、获得管理员权限不准使用自己的权限给服务器添乱<br>2、获得管理员权限请进QQ群：340707471方便管理<br>3、管理员应该无私帮助玩家的需求（在不过分的条件下），例如给予玩家一些生存所需的食物等<br>5、emmm（想不到了以后再说）</p>
+<p> 分割线——————————————————</p>
+<p>抱歉让大家久等了，今天我们选择了性能更好的服务器给大家提供服务，使用nukkit端<br>新服务器IP：Freewd.9666.fun<br>端口：21146<br>☺我们的QQ群：340707471<br>使用&#x2F;register +邮箱 +密码 注册<br>使用&#x2F;login +密码进行登陆<br>有什么问题欢迎提问<br>:))))))))))</p>
+<p>Minecraft 0.14.3老版本下载链接：<br><a target="_blank" rel="noopener" href="https://www.118pan.com/wap.php?action=view&file_id=1010968">https://www.118pan.com/wap.php?action=view&amp;file_id=1010968</a><br>👋🐱🖖</p>
+<p>我的博客网站：<a target="_blank" rel="noopener" href="https://blockcarftblog.netlify.app/">https://blockcarftblog.netlify.app/</a></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>Author: </span><span class="post-copyright-info"><a href="https://blockcarft114.github.io">BLOCKCARFT</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>Link: </span><span class="post-copyright-info"><a href="https://blockcarft114.github.io/freewd_0.14.3_announcement/">https://blockcarft114.github.io/freewd_0.14.3_announcement/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>Copyright Notice: </span><span class="post-copyright-info">All articles on this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless otherwise stated.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E5%9F%BA%E5%B2%A9%E7%89%88%E6%9C%8D%E5%8A%A1%E5%99%A8/">基岩版服务器</a></div><div class="post-share"><div class="social-share" data-image="https://avatars.githubusercontent.com/u/193120618?s=400&amp;u=08a340a6e3fd28a5a524ae228b3a4944666afd57&amp;v=4" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/2503010330/" title="测试视频（Minecraft）"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info"><div class="info-1"><div class="info-item-1">Previous</div><div class="info-item-2">测试视频（Minecraft）</div></div><div class="info-2"><div class="info-item-1">      Minecraft大电影预告！引用github的视频，移动用户加载不出来（  OK呀，三月份第一个博客:)</div></div></div></a><a class="pagination-related" href="/update/" title="BCK Blog更新测试"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-right"><div class="info-1"><div class="info-item-1">Next</div><div class="info-item-2">BCK Blog更新测试</div></div><div class="info-2"><div class="info-item-1">我是内容 1.5.1 更新内容：测试 </div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>Related Articles</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/25-1-16/" title="基岩版服务器Freewd2.0正式启程！！！！"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-01-16</div><div class="info-item-2">基岩版服务器Freewd2.0正式启程！！！！</div></div><div class="info-2"><div class="info-item-1">想要玩我们的服务器吗？想在基岩版遇见志同道合的朋友吗？欢迎来玩Freewd2.0版本服务器版本：1.21.5x服务器IP:play.simpfun.cn服务器端口：加群获得另外欢迎支持我们！关注BLOCKCARFT的哔哩哔哩下载BCK Blog请点击了解更多关于BCK Blog请点击听听音乐：  注意：请先向管理员报备你的游戏代号，服务器默认为访客权限！ </div></div></div></a><a class="pagination-related" href="/25-1-24/" title="Freewd也要贺新春！"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-01-24</div><div class="info-item-2">Freewd也要贺新春！</div></div><div class="info-2"><div class="info-item-1"> 欢迎来带Freewd2.0 在新年即将来临之际，我们在这里送上最真挚的祝福 祝你蛇年新年快乐！ 欢迎加入Freewd2.0服务器 版本：1.21.5x IP：play.simpfun.cn或者freewd.9666.fun 端口：[加QQ群获得：340707471]   😄再次祝你新年快乐 </div></div></div></a><a class="pagination-related" href="/25-1-3/" title="基岩版服务器——Freewd准备阶段"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-01-02</div><div class="info-item-2">基岩版服务器——Freewd准备阶段</div></div><div class="info-2"><div class="info-item-1">距离寒假又近一天！我决定开设寒假基岩版服务器服务器名称：Freewd-2025IP和端口请加群获得[目的是防止熊孩子捣蛋对服务器造成不可逆的损坏]我们会选择以基岩版最新版开设生存服务器 加入QQ聊群了解更多点击链接加入群聊 感谢观看，关注我的哔哩哔哩亦或者听听歌：    </div></div></div></a><a class="pagination-related" href="/25-1-31/" title="Freewd 2.0游戏公约"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-01-31</div><div class="info-item-2">Freewd 2.0游戏公约</div></div><div class="info-2"><div class="info-item-1">欢迎阅读Freewd 2.0游戏公约 最为一个小型生存服务器兼生电服务器，我们希望玩家可以做到以下几点： 1、拒绝使用外挂或者游戏漏洞来破坏服务器 2、做一为素质良好的玩家，在未经允许的条件下请勿随意拿取他人的物品 3、本服务器多数情况下在寒暑假开启 4、如果您遇到问题请向群里的管理员或群主说明情况 5、若您违反服务器公约我们将有权将您加入服务器黑名单 以上公约更新于2025-1-31，若有意见请向群主说明 </div></div></div></a><a class="pagination-related" href="/2502092019/" title="Freewd 2.0关服啦"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-02-09</div><div class="info-item-2">Freewd 2.0关服啦</div></div><div class="info-2"><div class="info-item-1">...</div></div></div></a></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="https://avatars.githubusercontent.com/u/193120618?s=400&amp;u=08a340a6e3fd28a5a524ae228b3a4944666afd57&amp;v=4" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">BLOCKCARFT</div><div class="author-info-description"></div><div class="site-data"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">16</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/blockcarft114"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">广告招租，有意者联系QQ：2216368705</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Posts</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/update/" title="BCK Blog更新测试">BCK Blog更新测试</a><time datetime="2025-03-02T05:30:01.078Z" title="Created 2025-03-02 05:30:01">2025-03-02</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2503010330/" title="测试视频（Minecraft）">测试视频（Minecraft）</a><time datetime="2025-03-01T00:00:00.000Z" title="Created 2025-03-01 00:00:00">2025-03-01</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/freewd_0.14.3_announcement/" title="Freewd 0.14.3服务器疑问解答">Freewd 0.14.3服务器疑问解答</a><time datetime="2025-03-01T00:00:00.000Z" title="Created 2025-03-01 00:00:00">2025-03-01</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2502181738/" title="苦逼的一周又开始了">苦逼的一周又开始了</a><time datetime="2025-02-18T00:00:00.000Z" title="Created 2025-02-18 00:00:00">2025-02-18</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2502130020/" title="BRO要回去学校坐牢了💀">BRO要回去学校坐牢了💀</a><time datetime="2025-02-13T00:00:00.000Z" title="Created 2025-02-13 00:00:00">2025-02-13</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2025 By BLOCKCARFT</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 7.3.0</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.3.3</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Reading Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Toggle Between Light and Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle Between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Settings"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back to Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
