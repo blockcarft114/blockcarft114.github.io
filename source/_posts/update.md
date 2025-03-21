@@ -2,6 +2,6 @@
 title: BCK Blog更新测试
 tag: BCK Blog
 ---
-<p>我是内容</p></br>
-<v>1.5.1</v></br>
-<m>更新内容：测试</m></br>
+h1 更新内容 h2
+v1 版本v4 debug v2
+t1 更新内容：test t2
