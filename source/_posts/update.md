@@ -1,6 +1,7 @@
 ---
 title: BCK Blog更新测试
 tag: BCK Blog
+date: 1145-1-9
 ---
 vv14.1vv2
 version1 版本v4.1 debug version2
