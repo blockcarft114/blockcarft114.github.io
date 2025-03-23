@@ -2,6 +2,9 @@
 title: BCK Blog更新测试
 tag: BCK Blog
 ---
-v1 版本v4 debug
- 更新内容：test t2
-<bckv1>这是一段emmm</bckv1>
+version1 版本v4.1 debug version2
+message1 
+版本：BCK V4.1
+更新内容：
+1、更新“更新功能
+2、更新双击返回键退出功能 message2
