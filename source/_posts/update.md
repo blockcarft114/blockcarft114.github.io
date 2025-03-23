@@ -8,3 +8,4 @@ message1
 更新内容：
 1、更新“更新功能
 2、更新双击返回键退出功能 message2
+[更新链接](https://github.com/blockcarft114/blockcarft114.github.io/releases)
